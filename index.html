@@ -23,7 +23,35 @@
             align-items: center;
             height: 100vh;
         }
+    
+        .bubble {
+            display: inline-block;
+            padding: 10px 15px;
+            background: lightblue;
+            border-radius: 15px;
+            position: relative;
+            max-width: 200px;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Adding the tail of the bubble */
+        .bubble::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 10px;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid lightblue;
+        }
     </style>
+</head>
+<body>
+
+    <div class="bubble">Hello, this is a text bubble!</div>
+
 </head>
 <body>
     <div class="obrazek">
