@@ -56,7 +56,9 @@ body {
 .content-section {
   padding: 64px;
   background-color: white;
-  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .alternate {
@@ -82,6 +84,15 @@ body {
   padding: 10px;
   cursor: pointer;
 }
+
+.icon-section {
+  display: flex;
+  align-items: center;
+}
+
+.text-section {
+  flex: 1;
+}
 </style>
 </head>
 <body>
@@ -100,21 +111,21 @@ body {
 
 <!-- Header -->
 <header class="header" style="padding:128px 16px">
-  <h1 class="header-title">ALL ABOUT MANGA</h1>
-  <p class="header-subtitle">Place where you can discover information about manga</p>
+  <h1 class="header-title">Welcome to My Website</h1>
+  <p class="header-subtitle">A clean, custom template</p>
   <button class="button">Get Started</button>
 </header>
 
 <!-- First Section -->
 <div class="content-section">
-    <div class="icon-section">
-      <i class="fa fa-anchor icon" style="color:#d32f2f;"></i>
-      <div class="text-section">
-        <h1>Manga</h1>
-        <p>Manga is a Japanese comic book or graphic novel. It is a distinctive style of drawing and storytelling that originated in Japan and has become popular worldwide. Manga covers a wide range of genres, from action and adventure stories to romance, horror, and sci-fi.</p>
-      </div>
+  <div class="icon-section">
+    <i class="fa fa-anchor icon" style="color:#d32f2f;"></i>
+    <div class="text-section">
+      <h1>Manga</h1>
+      <p>Manga is a Japanese comic book or graphic novel. It is a distinctive style of drawing and storytelling that originated in Japan and has become popular worldwide. Manga covers a wide range of genres, from action and adventure stories to romance, horror, and sci-fi.</p>
     </div>
   </div>
+</div>
 
 <!-- Second Section -->
 <div class="content-section alternate">
@@ -124,15 +135,13 @@ body {
     </div>
     <div class="text-section">
       <h1>More Info</h1>
-      <p>In Japan, manga is usually read from right to left and often first appears as individual chapters in magazines before being compiled into volumes (called tankōbon). There are mangas for different age groups, such as shōnen (for young boys), shōjo (for girls), seinen (for adult men), and josei (for adult women).
-
-        Manga has a significant influence on popular culture, and many popular anime series are based on manga originals.</p>
+      <p>Additional information about this website.</p>
     </div>
   </div>
 </div>
 
 <div class="footer-quote">
-    <h1>Quote of the day: Don't forget to smile in any situation. As long as you are alive, there will be better things later, and there will be many. -Eichiro Oda</h1>
+    <h1>Quote of the day: Live life</h1>
 </div>
 
 <!-- Footer -->
