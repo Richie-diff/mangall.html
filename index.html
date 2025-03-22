@@ -1,67 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .obrazek{
-            background-image: url('11155080.jpg'); /* Replace 'your-image.jpg' with your image file */
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            margin: 0;
-            padding: 0%;
-        }
-        .red-text {
-            color: red;
-            font-size: 100px;
-            font-weight: bold;
-        }
-        .center {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-    
-        .bubble {
-            display: inline-block;
-            padding: 10px 15px;
-            background: rgb(164, 171, 170);
-            border-radius: 15px;
-            position: relative;
-            max-width: 50%;
-            margin-top: 50px;
-            font-family: al, sans-serif;
-            font-size: 2rem;
-        }
-
-        /* Adding the tail of the bubble */
-        .bubble::after {
-            content: "";
-            position: absolute;
-            bottom: -10px;
-            left: 10px;
-            width: 0;
-            height: 0;
-            border-left: 10px solid transparent;
-            border-right: 10px solid transparent;
-            border-top: 10px solid lightblue;
-        }
-    </style>
-   
+<title>My Custom Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.navbar,h1,button {font-family: "Montserrat", sans-serif}
+.icon {font-size:200px}
+</style>
 </head>
 <body>
-    <div class="obrazek">
-    <div class="center">
-        <p class="red-text">ALL ABOUT MANGA</p>
-    </div>
+
+<!-- Navbar -->
+<div class="navbar">
+  <div class="navbar-container">
+    <a class="menu-button" href="javascript:void(0);" onclick="toggleMenu()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="0" class="nav-item active">Home</a>
+    <a href="#" class="nav-item">Link 1</a>
+    <a href="#" class="nav-item">Link 2</a>
+    <a href="#" class="nav-item">Link 3</a>
+    <a href="#" class="nav-item">Link 4</a>
+  </div>
 </div>
-<div class="bubble">Manga je japonský komiks nebo grafický román. Je to specifický styl kresby a vyprávění příběhů, který vznikl v Japonsku a stal se populárním po celém světě. Manga pokrývá širokou škálu žánrů, od akčních a dobrodružných příběhů až po romantiku, horor nebo sci-fi.
 
-    V Japonsku se manga čte zpravidla zprava doleva a často vychází nejdříve jako jednotlivé kapitoly v časopisech, než jsou sesbírány do svazků (tzv. tankōbon). Existují mangy pro různé věkové skupiny, například shōnen (pro mladé chlapce), shōjo (pro dívky), seinen (pro dospělé muže) nebo josei (pro dospělé ženy).
-    
-    Manga má velký vliv na populární kulturu a mnoho populárních anime seriálů vzniklo právě na základě manga předlohy.</div>
+<!-- Header -->
+<header class="header" style="padding:128px 16px">
+  <h1 class="header-title">Welcome to My Website</h1>
+  <p class="header-subtitle">A clean, custom template</p>
+  <button class="button">Get Started</button>
+</header>
+
+<!-- First Section -->
+<div class="content-section">
+  <div class="content">
+    <div class="text-section">
+      <h1>About</h1>
+      <p>Description about the website content.</p>
+    </div>
+    <div class="icon-section">
+      <i class="fa fa-anchor icon"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Section -->
+<div class="content-section alternate">
+  <div class="content">
+    <div class="icon-section">
+      <i class="fa fa-coffee icon"></i>
+    </div>
+    <div class="text-section">
+      <h1>More Info</h1>
+      <p>Additional information about this website.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer-quote">
+    <h1>Quote of the day: Live life</h1>
+</div>
+
+<!-- Footer -->
+<footer class="footer">  
+  <div class="social-icons">
+    <i class="fa fa-facebook-official"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-snapchat"></i>
+    <i class="fa fa-pinterest-p"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i>
+ </div>
+</footer>
+
+<script>
+function toggleMenu() {
+  var x = document.getElementById("menu");
+  if (x.classList.contains("show")) {
+    x.classList.remove("show");
+  } else { 
+    x.classList.add("show");
+  }
+}
+</script>
+
 </body>
-</html>
-
+</html
