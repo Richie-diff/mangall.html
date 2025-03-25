@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Custom Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Favicon Code -->
+<link rel="icon" href="joke_3839382.png" type="image/png">
+<!--
+  Favicon icon created by [@max.icons] from [www.freepik.com]
+  Link: https://www.freepik.com/author/user10325879/icons
+-->
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.navbar,h1,button {font-family: "Montserrat", sans-serif}
+.icon {font-size:200px}
+
+body {
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  background-color: #d32f2f;
+  padding: 16px;
+  text-align: left;
+}
+
+.nav-item {
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-item:hover {
+  background-color: #b71c1c;
+}
+
+.header {
+    background-image: url(Chainsaw\ man.jpg);
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 128px 16px;
+    }
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #333;
+}
+
+.content-section {
+  padding: 64px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.alternate {
+  background-color: #e0e0e0;
+}
+
+.footer-quote {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 64px;
+}
+
+.footer {
+  background-color: #d32f2f;
+  color: white;
+  text-align: center;
+  padding: 32px;
+}
+
+.social-icons i {
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.icon-section {
+  display: flex;
+  align-items: center;
+}
+
+.icon-image {
+  width: 400px; /* Nebo jakou velikost chceš */
+  height: auto;
+  margin-right: 20px;
+}
+
+.text-section {
+  flex: 1;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+  <div class="navbar-container">
+    <a class="menu-button" href="javascript:void(0);" onclick="toggleMenu()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="nav-item active">Home</a>
+    <a href="history.html" class="nav-item">History</a>
+    <a href="genres.html" class="nav-item">Genres</a>
+    <a href="#" class="nav-item">Recommendations</a>
+    <a href="#" class="nav-item">Links</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="header" style="padding:128px 16px">
+  <h1 class="header-title">GENRES OF MANGA</h1>
+  <p class="header-subtitle">What kind of Mangas are out there?</p>
+</header>
+
+<!-- First Section -->
+<div class="content-section">
+  <div class="icon-section">
+    <img src="one-piece-cool-jo1cjbe06e9iewqh.jpg" alt="Shonen" class="icon-image">
+    <div class="text-section">
+      <h1>Shōnen (少年) – For Young Boys</h1>
+      <p>Shōnen manga is aimed at young male readers (typically ages 12–18) and often features action, adventure, friendship, and perseverance. The main protagonist is usually a young boy striving to improve himself.
+
+        Common Themes:
+        Battles and tournaments
+        
+        Training and growth
+        
+        Strong friendships and rivalries
+        
+        Comedy elements
+        
+        Popular Examples:
+        Dragon Ball – A martial arts adventure featuring Goku’s journey from childhood to becoming Earth’s strongest fighter.
+        
+        Naruto – A young ninja, Naruto Uzumaki, dreams of becoming Hokage while dealing with the challenges of his past.
+        
+        One Piece – Follows Monkey D. Luffy and his pirate crew searching for the legendary treasure, the "One Piece."
+        
+        My Hero Academia – A world where people have superpowers (quirks), and the protagonist, Deku, aims to become the greatest hero.
+        
+        </p>
+    </div>
+  </div>
+</div>
+
+<!-- Second Section -->
+<div class="content-section alternate">
+    <div class="icon-section">
+        <img src="images.jpg" alt="Shojo" class="icon-image">
+      <div class="text-section">
+        <h1>Shōjo (少女) – For Young Girls</h1>
+        <p>Shōjo manga is aimed at young female readers (typically ages 10–18) and often focuses on romance, emotions, and relationships.
+
+            Common Themes:
+            Love triangles and drama
+            
+            Emotional storytelling
+            
+            School life and friendships
+            
+            Beautiful artwork with expressive characters
+            
+            Popular Examples:
+            Sailor Moon – A magical girl series where Usagi Tsukino fights evil while balancing her normal teenage life.
+            
+            Fruits Basket – A romantic drama about a girl who gets involved with a family cursed to transform into zodiac animals.
+            
+            Ouran High School Host Club – A comedic romance where a girl accidentally joins a school’s elite host club.
+            
+            Cardcaptor Sakura – A young girl discovers magical cards and must collect them to prevent disasters.</p>
+      </div>
+    </div>
+</div>
+
+<!-- Third Section -->
+<div class="content-section">
+    <div class="icon-section">
+        <img src="thumb-350-1372691.webp" alt="Seinen" class="icon-image">
+      <div class="text-section">
+        <h1>Seinen (青年) – For Adult Men</h1>
+        <p>Seinen manga is targeted at adult men (18+), featuring mature themes, deeper storytelling, and complex characters.
+
+            Common Themes:
+            Psychological depth
+            
+            Dark and realistic settings
+            
+            Action with intense violence
+            
+            Political and social issues
+            
+            Popular Examples:
+            Berserk – A dark fantasy about a warrior named Guts, who seeks revenge against his former friend-turned-enemy.
+            
+            Ghost in the Shell – A cyberpunk sci-fi series about cyborgs, hacking, and futuristic crime-solving.
+            
+            Tokyo Ghoul – A horror-thriller about a boy who turns into a flesh-eating ghoul after an accident.
+            
+            Vinland Saga – A historical action manga about Vikings, war, and revenge.
+            
+            </p>
+      </div>
+    </div>
+  </div>
+
+<!-- Fourth Section -->
+<div class="content-section alternate">
+    <div class="icon-section">
+        <img src="Unfinished-Shojo-Manga--Nana.avif" alt="Josei" class="icon-image">
+      <div class="text-section">
+        <h1>Josei (女性) – For Adult Women</h1>
+        <p>Josei manga is aimed at adult female readers (18+), featuring realistic romantic relationships and slice-of-life stories.
+
+            Common Themes:
+            Mature romance
+            
+            Workplace and adult life struggles
+            
+            Family relationships
+            
+            Less fantasy, more realism
+            
+            Popular Examples:
+            Nana – Follows two women named Nana navigating their careers, friendships, and love lives.
+            
+            Paradise Kiss – A coming-of-age romance about a high school girl discovering the fashion industry.
+            
+            Honey and Clover – A slice-of-life story about college students dealing with love and future aspirations.
+            
+            March Comes in Like a Lion – A drama about a young professional shogi player dealing with personal struggles.
+            
+            </p>
+      </div>
+    </div>
+</div>
+
+<!-- Fifth Section -->
+<div class="content-section">
+    <div class="icon-section">
+        <img src="608f7c3af16f6115ad1d4b9059ef1d97.jpg" alt="Isekai" class="icon-image">
+      <div class="text-section">
+        <h1>Isekai (異世界) – "Other World" Genre</h1>
+        <p>Isekai manga features characters who are transported to or reincarnated in a different world, usually a fantasy or game-like universe.
+
+            Common Themes:
+            Reincarnation or summoning to another world
+            
+            RPG-style leveling up and magic
+            
+            Protagonist gaining special powers
+            
+            Popular Examples:
+            Re:Zero – Starting Life in Another World – A boy is transported to a fantasy world where he relives his death repeatedly.
+            
+            That Time I Got Reincarnated as a Slime – A man is reborn as a slime in a magical world and becomes a powerful leader.
+            
+            Sword Art Online – Players get trapped inside a virtual MMORPG and must fight their way out.
+            
+            Mushoku Tensei – A man gets reincarnated in a fantasy world and decides to live a better life.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sixth Section -->
+<div class="content-section alternate">
+    <div class="icon-section">
+        <img src="2128297-2560x1600-desktop-hd-gurren-lagann-wallpaper-photo.jpg" alt="Mecha" class="icon-image">
+      <div class="text-section">
+        <h1>Mecha (メカ) – Robot Genre</h1>
+        <p>Mecha manga revolves around giant robots, futuristic warfare, and technology-driven battles.
+
+            Common Themes:
+            Giant humanoid robots piloted by humans
+            
+            Futuristic and military settings
+            
+            Conflicts between humanity and machines
+            
+            Popular Examples:
+            Mobile Suit Gundam – A franchise focusing on wars fought using mecha suits.
+            
+            Neon Genesis Evangelion – A psychological sci-fi mecha series exploring human emotions and war.
+            
+            Code Geass – A mix of political intrigue, mecha battles, and strategic warfare.
+            
+            Gurren Lagann – An over-the-top mecha adventure about breaking limits and freedom.
+            </p>
+      </div>
+    </div>
+</div>
+
+<!-- Seventh Section -->
+<div class="content-section">
+    <div class="icon-section">
+        <img src="HD-wallpaper-ken-kaneki-artwork-tokyo-ghoul-characters-manga-protagonist-tokyo-ghoul-kaneki-ken.jpg" alt="Horror" class="icon-image">
+      <div class="text-section">
+        <h1>Horror (ホラー) – Horror and Supernatural</h1>
+        <p>Horror manga includes eerie, disturbing, and supernatural elements designed to scare readers.
+
+            Common Themes:
+            Psychological horror
+            
+            Ghosts and monsters
+            
+            Body horror and grotesque imagery
+            
+            Popular Examples:
+            Junji Ito’s Uzumaki – A psychological horror about a town obsessed with spirals.
+            
+            Tokyo Ghoul – A dark horror story about humans coexisting with flesh-eating creatures.
+            
+            The Promised Neverland – Orphans discover they are raised as food for monsters and try to escape.
+            
+            Parasyte – An alien invasion story where parasites take control of human bodies.</p>
+      </div>
+    </div>
+  </div>
+
+<div class="footer-quote">
+    <h1>Quote: Don't forget to smile in any situation. As long as you are alive, there will be better things later, and there will be many. -Eichiro Oda
+        *For study purposes only*
+    </h1>
+</div>
+
+<!-- Footer -->
+<footer class="footer">  
+  <div class="social-icons">
+    <i class="fa fa-facebook-official"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-snapchat"></i>
+    <i class="fa fa-pinterest-p"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i>
+ </div>
+</footer>
+
+<script>
+function toggleMenu() {
+  var x = document.getElementById("menu");
+  if (x.classList.contains("show")) {
+    x.classList.remove("show");
+  } else { 
+    x.classList.add("show");
+  }
+}
+</script>
+
+</body>
+</html>
