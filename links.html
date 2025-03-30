@@ -43,6 +43,19 @@
     margin-right: 20px;
   }
   
+  .links-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Mezera mezi odkazy */
+}
+
+.links-container a {
+  flex: 1 1 auto; /* Přizpůsobení velikosti */
+  text-decoration: none;
+  color: blue; /* Můžeš změnit podle potřeby */
+  white-space: nowrap; /* Zabrání zalomení */
+}
+
 </style>
 </head>
 <body>
@@ -68,7 +81,7 @@
 <div class="content-section">
   <div class="icon-section">
     <i class="fa fa-bars icon" style="color:#d32f2f;"></i>
-    <div class="text-section">
+    <div class="links-container">
       <h1>Here are all of my sources</h1>
       <p>
         <a href="https://www.wallpaperflare.com/thorfinn-vinland-saga-wallpaper-yxhuy" target="_blank">Wallpaper Flare - Thorfinn</a><br>
